@@ -484,7 +484,7 @@ jobs:
             --set controller.nodeSelector."beta\.kubernetes\.io/os"=linux \
             --set defaultBackend.nodeSelector."beta\.kubernetes\.io/os"=linux \
             --set controller.admissionWebhooks.patch.nodeSelector."beta\.kubernetes\.io/os"=linux \
-            --set controller.service.externalTrafficPolicy=Local
+            --set controller.service.externalTrafficPolicy=Local \
             --set controller.progressDeadlineSeconds=600
             
 
